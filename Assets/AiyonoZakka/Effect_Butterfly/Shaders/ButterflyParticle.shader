@@ -75,5 +75,5 @@ Shader "Aiyonozakka/ButterflyParticle" {
         }
     }
     FallBack "Diffuse"
-    CustomEditor "ShaderForgeMaterialInspector"
+    //CustomEditor "ShaderForgeMaterialInspector"
 }
