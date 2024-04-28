@@ -13,20 +13,9 @@ public class SoundTest : MonoBehaviour
     //[SerializeField]
     //private AudioClip clip2; //音源データ2
  
-    void Update()
+    void Awake()
     {
-        if (Input.GetMouseButtonDown(0)) //左クリック
-        {
-            source.clip = clip1; //再生したいclipを指定して
-            source.Play(); //再生
-        }
-        if (Input.GetMouseButtonDown(1)) //右クリック
-        {
-            //source.clip = clip2; //再生したいclipを指定して
-            //source.Play(); //再生
-            source.clip = clip1; //再生したいclipを指定して
-            source.Stop(); //再生
-
-        }
+        source.clip = clip1; //再生したいclipを指定して
+        source.Play(); //再生
     }
 }
