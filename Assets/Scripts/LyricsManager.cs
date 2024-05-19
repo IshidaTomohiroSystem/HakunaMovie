@@ -15,6 +15,11 @@ public class LyricsManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI text2;
 
+    [SerializeField]
+    TextMeshProUGUI text3;
+    [SerializeField]
+    TextMeshProUGUI text4;
+
     int textNum;
     // Start is called before the first frame update
     void Awake()
@@ -24,6 +29,8 @@ public class LyricsManager : MonoBehaviour
         textNum = 0;
         text1.text = "";
         text2.text = "";
+        text3.text = "";
+        text4.text = "";
     }
 
     // Update is called once per frame
@@ -33,6 +40,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -40,6 +49,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -47,6 +58,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -54,6 +67,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -61,6 +76,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -68,6 +85,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -75,6 +94,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -82,6 +103,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -89,12 +112,16 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = "";
             text2.text = "";
+            text3.text = "";
+            text4.text = "";
         }
 
         if (songTime > 114.0f && textNum == 16)
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -102,6 +129,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -109,6 +138,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -116,6 +147,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -123,6 +156,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -130,6 +165,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -137,6 +174,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -144,6 +183,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -151,6 +192,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -158,6 +201,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -165,6 +210,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = loadText.GetLyrics(textNum);
             text2.text = loadText.GetLyrics(textNum + 1);
+            text3.text = loadText.GetLyrics(textNum);
+            text4.text = loadText.GetLyrics(textNum + 1);
             textNum += 2;
         }
 
@@ -172,6 +219,8 @@ public class LyricsManager : MonoBehaviour
         {
             text1.text = "";
             text2.text = "";
+            text3.text = "";
+            text4.text = "";
             textNum += 2;
         }
     }
